@@ -85,17 +85,17 @@ main_df.info()
     Sem 11 College                     332 non-null object
     Sem 12 College                     296 non-null object
     HS_Class                           2776 non-null float64
-    Performance_Avoidance              2733 non-null float64
-    Self_Concept                       2774 non-null float64
-    Academic_Identity                  2753 non-null float64
     Growth_Mindset_Self_Efficacy       2749 non-null float64
-    Academic_Delay_of_Gratification    2723 non-null float64
     Intrinsic_Motivation               2754 non-null float64
-    HS_Preparation                     2690 non-null float64
     Self_Regulation                    2734 non-null float64
-    Support_Networks_School            2767 non-null float64
     Support_Networks_Family            2772 non-null float64
+    Performance_Avoidance              2733 non-null float64
     Organization_Time_Management       2729 non-null float64
+    Academic_Identity                  2753 non-null float64
+    Academic_Delay_of_Gratification    2723 non-null float64
+    HS_Preparation                     2690 non-null float64
+    Support_Networks_School            2767 non-null float64
+    Self_Concept                       2774 non-null float64
     dtypes: float64(32), int64(10), object(17)
     memory usage: 3.8+ MB
     
@@ -303,7 +303,7 @@ for nces, school_name in special_colleges: # loop through each college
     [Train stats]: 76% positive, AOC: 50%, Score: 76%, N: 196
     [Test stats ]: 77% positive, AOC: 50%, Score: 77%, N: 159
     
-    Case: GPA for '13-15 (no test)University of Illinois at Chicago (plus demographics)
+    Case: GPA for '13-15 (no test) University of Illinois at Chicago (plus demographics)
     [Coefficients]: ["[('GPA', 0.92118788807809704), ('IsMale', -0.36152840190326524), ('IsBlack', 1.7256218703055601), ('IsLatino', 0.071744061641422163), ('intercept', -1.6340547035444424)]"]
     [Train stats]: 76% positive, AOC: 50%, Score: 76%, N: 355
     [Test stats ]: 76% positive, AOC: 50%, Score: 76%, N: 355
@@ -319,7 +319,7 @@ for nces, school_name in special_colleges: # loop through each college
     [Train stats]: 92% positive, AOC: 49%, Score: 91%, N: 174
     [Test stats ]: 87% positive, AOC: 50%, Score: 87%, N: 103
     
-    Case: GPA for '13-15 (no test)University of Illinois at Urbana-Champaign (plus demographics)
+    Case: GPA for '13-15 (no test) University of Illinois at Urbana-Champaign (plus demographics)
     [Coefficients]: ["[('GPA', 4.073118046010153), ('IsMale', -0.93452499468860883), ('IsBlack', -0.92631608510592744), ('IsLatino', -0.39529244705782535), ('intercept', -10.098018521024683)]"]
     [Train stats]: 90% positive, AOC: 54%, Score: 91%, N: 277
     [Test stats ]: 90% positive, AOC: 54%, Score: 91%, N: 277
@@ -335,7 +335,7 @@ for nces, school_name in special_colleges: # loop through each college
     [Train stats]: 72% positive, AOC: 50%, Score: 72%, N: 121
     [Test stats ]: 65% positive, AOC: 50%, Score: 65%, N: 52
     
-    Case: GPA for '13-15 (no test)Western Illinois University (plus demographics)
+    Case: GPA for '13-15 (no test) Western Illinois University (plus demographics)
     [Coefficients]: ["[('GPA', 0.2239520961518606), ('IsMale', -0.60306888230862099), ('IsBlack', 0.93132715229211371), ('IsLatino', 0.78748472641799849), ('intercept', -0.3014454819881238)]"]
     [Train stats]: 70% positive, AOC: 50%, Score: 69%, N: 173
     [Test stats ]: 70% positive, AOC: 50%, Score: 69%, N: 173
@@ -351,7 +351,7 @@ for nces, school_name in special_colleges: # loop through each college
     [Train stats]: 59% positive, AOC: 55%, Score: 59%, N: 111
     [Test stats ]: 58% positive, AOC: 65%, Score: 65%, N: 43
     
-    Case: GPA for '13-15 (no test)City Colleges of Chicago-Harold Washington College (plus demographics)
+    Case: GPA for '13-15 (no test) City Colleges of Chicago-Harold Washington College (plus demographics)
     [Coefficients]: ["[('GPA', 0.91273496171505408), ('IsMale', -0.43026485449959123), ('IsBlack', -0.57056700203448596), ('IsLatino', -0.18708008740619911), ('intercept', -1.3734392932616872)]"]
     [Train stats]: 59% positive, AOC: 57%, Score: 61%, N: 154
     [Test stats ]: 59% positive, AOC: 57%, Score: 61%, N: 154
@@ -367,7 +367,7 @@ for nces, school_name in special_colleges: # loop through each college
     [Train stats]: 75% positive, AOC: 63%, Score: 79%, N: 101
     [Test stats ]: 73% positive, AOC: 50%, Score: 66%, N: 96
     
-    Case: GPA for '13-15 (no test)Illinois State University (plus demographics)
+    Case: GPA for '13-15 (no test) Illinois State University (plus demographics)
     [Coefficients]: ["[('GPA', 2.2107198348422981), ('IsMale', 0.16893737979136289), ('IsBlack', -0.42844927196415894), ('IsLatino', -0.77488288423807228), ('intercept', -4.764506594823099)]"]
     [Train stats]: 74% positive, AOC: 51%, Score: 73%, N: 197
     [Test stats ]: 74% positive, AOC: 51%, Score: 73%, N: 197
@@ -383,7 +383,7 @@ for nces, school_name in special_colleges: # loop through each college
     [Train stats]: 52% positive, AOC: 63%, Score: 63%, N: 98
     [Test stats ]: 53% positive, AOC: 70%, Score: 70%, N: 43
     
-    Case: GPA for '13-15 (no test)Northeastern Illinois University (plus demographics)
+    Case: GPA for '13-15 (no test) Northeastern Illinois University (plus demographics)
     [Coefficients]: ["[('GPA', 1.4733052984377526), ('IsMale', -0.3930851540952941), ('IsBlack', -0.86283352977006944), ('IsLatino', -1.5941696456080861), ('intercept', -1.7113741922295862)]"]
     [Train stats]: 52% positive, AOC: 64%, Score: 64%, N: 141
     [Test stats ]: 52% positive, AOC: 64%, Score: 64%, N: 141
@@ -399,7 +399,7 @@ for nces, school_name in special_colleges: # loop through each college
     [Train stats]: 47% positive, AOC: 60%, Score: 60%, N: 70
     [Test stats ]: 74% positive, AOC: 60%, Score: 57%, N: 23
     
-    Case: GPA for '13-15 (no test)City Colleges of Chicago-Wilbur Wright College (plus demographics)
+    Case: GPA for '13-15 (no test) City Colleges of Chicago-Wilbur Wright College (plus demographics)
     [Coefficients]: ["[('GPA', 1.0228178119139264), ('IsMale', -0.1603056826710878), ('IsBlack', 0.87555757836454029), ('IsLatino', 0.58334678563562581), ('intercept', -2.865562322856006)]"]
     [Train stats]: 54% positive, AOC: 61%, Score: 61%, N: 93
     [Test stats ]: 54% positive, AOC: 61%, Score: 61%, N: 93
@@ -415,7 +415,7 @@ for nces, school_name in special_colleges: # loop through each college
     [Train stats]: 84% positive, AOC: 50%, Score: 84%, N: 67
     [Test stats ]: 89% positive, AOC: 50%, Score: 89%, N: 19
     
-    Case: GPA for '13-15 (no test)Hope College (plus demographics)
+    Case: GPA for '13-15 (no test) Hope College (plus demographics)
     [Coefficients]: ["[('GPA', 2.9396257885570973), ('IsMale', 0.10142250873286898), ('IsBlack', -2.2679347608153866), ('IsLatino', -2.4899435992424834), ('intercept', -4.757878360057743)]"]
     [Train stats]: 85% positive, AOC: 50%, Score: 85%, N: 86
     [Test stats ]: 85% positive, AOC: 50%, Score: 85%, N: 86
@@ -431,7 +431,7 @@ for nces, school_name in special_colleges: # loop through each college
     [Train stats]: 48% positive, AOC: 61%, Score: 62%, N: 65
     [Test stats ]: 48% positive, AOC: 63%, Score: 63%, N: 27
     
-    Case: GPA for '13-15 (no test)Southern Illinois University Carbondale (plus demographics)
+    Case: GPA for '13-15 (no test) Southern Illinois University Carbondale (plus demographics)
     [Coefficients]: ["[('GPA', 1.4522530587486366), ('IsMale', 0.040661019602590845), ('IsBlack', -1.3951855000587248), ('IsLatino', -0.99681780945701126), ('intercept', -2.3920033095157334)]"]
     [Train stats]: 48% positive, AOC: 59%, Score: 60%, N: 92
     [Test stats ]: 48% positive, AOC: 59%, Score: 60%, N: 92
@@ -447,7 +447,7 @@ for nces, school_name in special_colleges: # loop through each college
     [Train stats]: 85% positive, AOC: 50%, Score: 85%, N: 53
     [Test stats ]: 64% positive, AOC: 50%, Score: 64%, N: 28
     
-    Case: GPA for '13-15 (no test)University of Illinois at Springfield (plus demographics)
+    Case: GPA for '13-15 (no test) University of Illinois at Springfield (plus demographics)
     [Coefficients]: ["[('GPA', 2.6338538043519151), ('IsMale', 0.32866038496531574), ('IsBlack', -8.1735226718133536), ('IsLatino', -8.2333470010394194), ('intercept', 2.074439033303843)]"]
     [Train stats]: 78% positive, AOC: 51%, Score: 77%, N: 81
     [Test stats ]: 78% positive, AOC: 51%, Score: 77%, N: 81
@@ -463,7 +463,7 @@ for nces, school_name in special_colleges: # loop through each college
     [Train stats]: 83% positive, AOC: 56%, Score: 85%, N: 48
     [Test stats ]: 75% positive, AOC: 50%, Score: 75%, N: 12
     
-    Case: GPA for '13-15 (no test)Monmouth College (plus demographics)
+    Case: GPA for '13-15 (no test) Monmouth College (plus demographics)
     [Coefficients]: ["[('GPA', 2.4541625354703736), ('IsMale', -0.30299238729384054), ('IsBlack', -8.7911108913480192), ('IsLatino', -7.6232337372887029), ('intercept', 2.7514679561298108)]"]
     [Train stats]: 82% positive, AOC: 58%, Score: 83%, N: 60
     [Test stats ]: 82% positive, AOC: 58%, Score: 83%, N: 60
@@ -479,7 +479,7 @@ for nces, school_name in special_colleges: # loop through each college
     [Train stats]: 83% positive, AOC: 50%, Score: 83%, N: 47
     [Test stats ]: 72% positive, AOC: 50%, Score: 72%, N: 40
     
-    Case: GPA for '13-15 (no test)Eastern Illinois University (plus demographics)
+    Case: GPA for '13-15 (no test) Eastern Illinois University (plus demographics)
     [Coefficients]: ["[('GPA', -0.35262000894129525), ('IsMale', -0.094834788546906051), ('IsBlack', 0.70709586923044065), ('IsLatino', 0.8474591344444935), ('intercept', 1.5545550036749438)]"]
     [Train stats]: 78% positive, AOC: 50%, Score: 78%, N: 87
     [Test stats ]: 78% positive, AOC: 50%, Score: 78%, N: 87
@@ -495,7 +495,7 @@ for nces, school_name in special_colleges: # loop through each college
     [Train stats]: 79% positive, AOC: 84%, Score: 91%, N: 47
     [Test stats ]: 100% positive, AOC: -100%, Score: 77%, N: 13
     
-    Case: GPA for '13-15 (no test)DePaul University (plus demographics)
+    Case: GPA for '13-15 (no test) DePaul University (plus demographics)
     [Coefficients]: ["[('GPA', 5.9378374255684712), ('IsMale', 3.7266194979451215), ('IsBlack', 2.1974408000768832), ('IsLatino', 1.6462058843218814), ('intercept', -19.24509398836435)]"]
     [Train stats]: 83% positive, AOC: 69%, Score: 88%, N: 60
     [Test stats ]: 83% positive, AOC: 69%, Score: 88%, N: 60
@@ -511,7 +511,7 @@ for nces, school_name in special_colleges: # loop through each college
     [Train stats]: 70% positive, AOC: 54%, Score: 70%, N: 46
     [Test stats ]: 67% positive, AOC: 55%, Score: 70%, N: 33
     
-    Case: GPA for '13-15 (no test)Dominican University (plus demographics)
+    Case: GPA for '13-15 (no test) Dominican University (plus demographics)
     [Coefficients]: ["[('GPA', 0.92006090631443238), ('IsMale', -0.84273331800660556), ('IsBlack', -1.7108090705457131), ('IsLatino', -0.6425172904198706), ('intercept', -0.8388454035833608)]"]
     [Train stats]: 68% positive, AOC: 54%, Score: 68%, N: 79
     [Test stats ]: 68% positive, AOC: 54%, Score: 68%, N: 79
@@ -527,7 +527,7 @@ for nces, school_name in special_colleges: # loop through each college
     [Train stats]: 67% positive, AOC: 50%, Score: 67%, N: 45
     [Test stats ]: 68% positive, AOC: 50%, Score: 68%, N: 19
     
-    Case: GPA for '13-15 (no test)Northern Illinois University (plus demographics)
+    Case: GPA for '13-15 (no test) Northern Illinois University (plus demographics)
     [Coefficients]: ["[('GPA', 1.6064717519105065), ('IsMale', 0.020875246808274916), ('IsBlack', -7.8942460043842217), ('IsLatino', -8.1515388416198089), ('intercept', 4.31052799212182)]"]
     [Train stats]: 67% positive, AOC: 62%, Score: 72%, N: 64
     [Test stats ]: 67% positive, AOC: 62%, Score: 72%, N: 64
@@ -535,7 +535,24 @@ for nces, school_name in special_colleges: # loop through each college
     
     
 
+## The model I've constructed uses these individual slices to build a model with the following rules
+1. If the student is at one of the high frequency colleges, use the 2013-2015 trained model for that college
+-- Key features of this model are GPA, and dummy variables for IsMale, IsBlack, IsLatino (grad rate is not used because it's a constant for all of these samples at each college
+2. If not at one of those colleges, use the 2013-2015 trained model for the Barron's selectivity class of college they attend
+-- Key features of this model are GPA, institutional grad rate, and dummy variables for IsMale, IsBlack, IsLatino
+
 ## Questions? I've left off a final set of analyses on only the 2015 data where I tried to estimate the impact of the various survey questions
+Briefly, my method for including that data:
+- Use a range of different constructs to try to improve the results compared to the base case of GPA, Grad Rate, and demographics
+- Test/train based on a random split of the 2015 class
+- Based on these results, AcademicIdentity by itself was the best match (per score)
+- I then modified my main model by adding an AcademicIdentity term to the logistic regression function that was normalized to have the same impact: no variation if a student has the mean score, but effect of the same relative strength for variation from there
+
+## Suggestions I've received for how to improve this model:
+- Ridge Regression
+- L1 Regularization
+- Gradientboost
+- Random Forest (I think for these latter two, I've created a sort of supervised version of the same by amalgamating multiple slices)
 
 
 ```python
