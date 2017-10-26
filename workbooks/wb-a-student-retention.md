@@ -994,5 +994,5 @@ for sensitivity in [0.001, 0.0015, 0.002]:
     Total of 175 instances of crime for 009XX N MENARD AVE, 33 of which were serious
     
 
-For reference, here's the block in question:
+For reference, here's the block in question (yellow, blue, and purple markers denote the inner, middle, and outer sensitivities):
 ![block](./menardblock.png)
