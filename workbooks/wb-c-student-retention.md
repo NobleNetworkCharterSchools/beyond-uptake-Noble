@@ -693,7 +693,7 @@ fig.add_layer(gmaps.symbol_layer(crime_blocks[0.003],fill_color='black',stroke_c
 fig
 ```
 
-![png](map_crime_heatmap.png)
+![png](map_roweclark.png)
 
 ## This looks like a reasonable set of grids
 ### To summarize:
