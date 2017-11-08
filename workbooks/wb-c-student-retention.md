@@ -126,21 +126,7 @@ fig
 ```
 
 
-<p>Failed to display Jupyter Widget of type <code>Figure</code>.</p>
-<p>
-  If you're reading this message in Jupyter Notebook or JupyterLab, it may mean
-  that the widgets JavaScript is still loading. If this message persists, it
-  likely means that the widgets JavaScript library is either not installed or
-  not enabled. See the <a href="https://ipywidgets.readthedocs.io/en/stable/user_install.html">Jupyter
-  Widgets Documentation</a> for setup instructions.
-</p>
-<p>
-  If you're reading this message in another notebook frontend (for example, a static
-  rendering on GitHub or <a href="https://nbviewer.jupyter.org/">NBViewer</a>),
-  it may mean that your frontend doesn't currently support widgets.
-</p>
-
-
+![png](map_crime_heatmap.png)
 
 
 ```python
@@ -707,22 +693,7 @@ fig.add_layer(gmaps.symbol_layer(crime_blocks[0.003],fill_color='black',stroke_c
 fig
 ```
 
-
-<p>Failed to display Jupyter Widget of type <code>Figure</code>.</p>
-<p>
-  If you're reading this message in Jupyter Notebook or JupyterLab, it may mean
-  that the widgets JavaScript is still loading. If this message persists, it
-  likely means that the widgets JavaScript library is either not installed or
-  not enabled. See the <a href="https://ipywidgets.readthedocs.io/en/stable/user_install.html">Jupyter
-  Widgets Documentation</a> for setup instructions.
-</p>
-<p>
-  If you're reading this message in another notebook frontend (for example, a static
-  rendering on GitHub or <a href="https://nbviewer.jupyter.org/">NBViewer</a>),
-  it may mean that your frontend doesn't currently support widgets.
-</p>
-
-
+![png](map_crime_heatmap.png)
 
 ## This looks like a reasonable set of grids
 ### To summarize:
