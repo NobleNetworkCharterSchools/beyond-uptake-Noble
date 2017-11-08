@@ -10,3 +10,5 @@ Project site for Data Fellows project
 # New notebooks for student retention:
 
 1. [Inspection of crime data](workbooks/wb-a-student-retention.md)
+2. [Cleanup of geocodes in crime data](workbooks/wb-b-student-retention.md)
+3. [Final creation of geocoded crime database](workbooks/wb-c-student-retention.md)
