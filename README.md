@@ -12,3 +12,4 @@ Project site for Data Fellows project
 1. [Inspection of crime data](workbooks/wb-a-student-retention.md)
 2. [Cleanup of geocodes in crime data](workbooks/wb-b-student-retention.md)
 3. [Final creation of geocoded crime database](workbooks/wb-c-student-retention.md)
+4. [Investigation of first year leavers](workbooks/wb-e/wb-e-initial_student_retention_predictions.md)
